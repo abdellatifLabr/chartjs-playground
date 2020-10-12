@@ -1,4 +1,7 @@
 {
+  "env": {
+    "browser": true
+  },
   "extends": ["airbnb", "prettier", "prettier/react"],
   "plugins": ["prettier", "html", "react-hooks"],
   "rules": {
@@ -7,6 +10,7 @@
     }],
     "global-require": "off",
     "import/no-dynamic-require": "off",
-    "react/no-unescaped-entities": "off"
+    "react/no-unescaped-entities": "off",
+    "react/jsx-filename-extension": "off"
   }
 }
